@@ -3,7 +3,6 @@
 ## Description
 This project aims to **identify mushrooms toxicity based on easily observable characteristics** such as cap color, stem color, gill size, etc. Each feature is categorical and easily observable if one knows what to look for. The data comes from a hypothetical dataset drawn from [The Audubon Society Field Guide to North American Mushrooms](https://www.kaggle.com/uciml/mushroom-classification) (1981). 
 
-"![Visualization of a mushroom](./images/mushroom_anatomy.jpg =100x20)"
 <img src="./images/mushroom_anatomy.jpg" width="200" height="200" />
 
 ## Results
