@@ -3,7 +3,7 @@
 ## Description
 This project aims to **identify mushrooms toxicity based on easily observable characteristics** such as cap color, stem color, gill size, etc. Each feature is categorical and easily observable if one knows what to look for. The data comes from a hypothetical dataset drawn from [The Audubon Society Field Guide to North American Mushrooms](https://www.kaggle.com/uciml/mushroom-classification) (1981). 
 
-![Visualization of a mushroom](./images/Mushroom_anatomy.jpg)
+![Visualization of a mushroom](./images/mushroom_anatomy.jpg)
 
 ## Results
 Since avoiding toxic mushrooms is the number one goal, my _metric for success was #recall#_ (the target is coded as 1 (poisonous or unknown) and 0 (definitely edible)). With this metric, I acheived a recall rate of 99.7% using either a random forest or XGBoost model. Observing the feature importance metric used in the XGBoost model, we see that the stalk color above the ring was the most significant feature in determining toxicity for the mushrooms in this sample. 
